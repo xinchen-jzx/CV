@@ -2,8 +2,9 @@
 
 > :star: If it is useful for you, please give me a free star, thanks! :star:
 
-
-Modified from [OrangeX4/Chinese-Resume-in-Typst](https://github.com/OrangeX4/Chinese-Resume-in-Typst).
+- Modified from [OrangeX4/Chinese-Resume-in-Typst](https://github.com/OrangeX4/Chinese-Resume-in-Typst).
+- Example image `iamges/wukong.jpg` is from [插画师小光 sir](https://www.uisdc.com/group/581131.html).
+- If it is infringing, please contact me to remove it, thank you!
 
 Extract Personal Infomation to another file, keep main typst resume file clean.
 
