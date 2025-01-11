@@ -14,3 +14,4 @@
 #let faWrench = icon("icons/fa-wrench.svg")
 #let faBlog = icon("icons/fa-blog.svg")
 #let faPortrait = icon("icons/fa-portrait.svg")
+#let faPaper = icon("icons/fa-paper.svg")

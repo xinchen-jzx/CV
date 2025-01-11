@@ -17,40 +17,56 @@
   photograph: Photograph, photographWidth: 9em, gutterWidth: 1em,
   need_photograph: NeedPhotograph
 )[
-
 = #Name
 
 #info(
   color: themeColor,
   (icon: faPhone, content: PhoneNumber),
-  (icon: faBuildingColumns, content: University),
-  (icon: faGraduationCap, content: Major),
-  (icon: faPortrait, content: PoliticalStatus),
   (icon: faEnvelope, content: MailAddress, link: "mailto:" + MailAddress),
-  (icon: faGithub, content: GithubContent, link: GithubHomePage),
-  (icon: faBlog, content: PersonalBlogContent, link: PersonalBlogPage),
+  (icon: faBlog, content: HomePage, link: HomePageLink),
 )
+
 #h(2em) #Intro
+
+#h(2em) #LifeCreed
 ]
 
 == #faGraduationCap Education Background
 
 #sidebar(withLine: true, sideWidth: 20%)[
-  #display_duration(d1: EnrollDay, d2: Today, date_format: false)
-  
-  #display_date(d: EnrollDay, date_format: false)
-  
-  #display_date(d: datetime(year: 1234, month: 9, day: 1), date_format: false)
+  *_Sep.2021 \~ present_*
 
-  1234\~2345
+  *Changsha, China*
 ][
-  #Grade
+  *National University of Defense Technology (NUDT)*
   
-  #UniversityShort · #College · *#Major*
+  _B.E. Student, School of Computer Science_
   
-  #UniversityShort · #Lab1
+  Advised by Dr. Zengkun
+]
 
-  #UniversityShort · #Lab2
+#sidebar(withLine: true, sideWidth: 20%)[
+  *_Jun.2024 \~ present_*
+
+  *Beijing, China*
+][
+  *Chinese Academy of Sciences (CAS)*
+  
+  _Visiting Student, Institute of Computing Technology (ICT) _
+  
+  co-Advised by Dr. Huimin Cui and Dr. Chenxi Wang
+]
+
+== #faPaper Research & Publications
+
+- *[NeurIPS\'24 CCF-A]* Zhihua Wen, Zhiliang Tian, #underline[*Zexin Jian*], Zhen Huang, Pei Ke, Yifu Gao, Minlie Huang, Dongsheng Li. _Perception of Knowledge Boundaries for LLMs via Semi-open-ended Question Answering_.
+- *[ACL\'23 CCF-A]* Zhihua Wen, Zhiliang Tian, Zhen Huang, Yuxin Yang, #underline[*Zexin Jian*], Changjian Wang, Dongsheng Li. _GRACE: Gradient-guided Controllable Retrieval for Augmenting Attribute-based Text Generation_.
+
+== #faCode Projects
+
+#for project in Projects [
+  #project
+  #v(0.2em)
 ]
 
 == #faWrench Expertise
@@ -80,13 +96,6 @@
 == #faAward Awards
 
 #Awards
-
-== #faCode Projects
-
-#for project in Projects [
-  #project
-  #v(0.2em)
-]
 
 == #faBuildingColumns Leadership and Extracurricular Activities 
 

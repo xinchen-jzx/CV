@@ -2,13 +2,10 @@
 #import "OuterInfos.typ": *
 
 // Personal Info
-#let Name = "Sun Wukong"
-#let Name_zh = "孙悟空"
+#let Name = "Zexin Jian"
+#let Name_zh = "简泽鑫"
 
-#let PoliticalStatus = "Protector of the Horses"
-#let PoliticalStatus_zh = "弼马温"
-
-#let Photograph = "./images/wukong.jpg"
+#let Photograph = "./images/avatar.jpg"
 
 #let Grade = "GPA: 3.90/4 · Rank: 1/108 , CET4 6xx · CET6 5xx"
 
@@ -30,15 +27,12 @@
 #let Major = "Somersault Cloud"
 #let Major_zh = "筋斗云"
 
-#let PhoneNumber = "(+86) 123-456-7890"
+#let PhoneNumber = "(+86) 155-7423-3383"
 
-#let MailAddress = "sunwukong@tiangong.edu.cn"
+#let MailAddress = "zexinjian@gmail.com"
 
-#let GithubContent = "github.com/sunwukong"
-#let GithubHomePage = "https://github.com/sunwukong"
-
-#let PersonalBlogContent = "sunwukong.github.io"
-#let PersonalBlogPage = "https://sunwukong.github.io"
+#let HomePage = "xinchen-jzx.github.io"
+#let HomePageLink = "https://xinchen-jzx.github.io/"
 
 #let Lab1 = "Huaguo Mountain"
 #let Lab1_zh = "花果山"
@@ -53,9 +47,14 @@
 #let Today = datetime.today()
 
 #let Intro = [
-  I am Sun Wukong, currently studing at #University, majoring in #{Major}. My primary research interests include Immortality, Seventy-two changes and Somersault Cloud, and developed Huo-Yan-Jin-Jing in Ba-Gua Furnace. Currently, I am participating in a national-level project to escort Tang monks to the west to learn scriptures.
+  My research interest includes:
+  - Managed Runtime System
+  - Machine Learning System
+  - Large Language Models (LLM)
 ]
-
+#let LifeCreed = [
+  I will continue to search, even if the endless stars make my search hopeless, even if I am alone.
+]
 
 #let Intro_zh = [
   我是#{Name_zh}，现就读于#{University_zh}、#{College_zh}，专业为#{Major_zh}。感兴趣的研究方向为长生不老术、地煞七十二变与筋斗云，并在八卦炉中练就了火眼金睛。目前正在参与护送唐僧西天取经的国家级项目。

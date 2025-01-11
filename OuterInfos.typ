@@ -1,9 +1,8 @@
-// Outer Info
-
 // Programming Language
 #let Rust = [#link("https://www.rust-lang.org/")[Rust]]
 #let CPP = [#link("https://isocpp.org/")[C++]]
 #let Python = [#link("https://www.python.org/")[Python]]
+
 // Skills
 #let Linux = [#link("https://github.com/torvalds/linux")[Linux]]
 #let CMake = [#link("https://cmake.org/")[CMake]]
@@ -14,6 +13,7 @@
 #let Git = [#link("https://git-scm.com/")[Git]]
 #let Docker = [#link("https://www.docker.com/")[Docker]]
 #let Debian = [#link("https://www.debian.org/")[Debian]]
+
 // Misc
 #let LLVM = [#link("https://llvm.org/")[LLVM]]
 #let CUDA = [#link("https://developer.nvidia.com/cuda-zone")[CUDA]]

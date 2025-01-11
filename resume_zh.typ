@@ -24,12 +24,8 @@
 #info(
   color: themeColor,
   (icon: faPhone, content: PhoneNumber),
-  (icon: faBuildingColumns, content: University_zh),
-  (icon: faGraduationCap, content: Major_zh),
-  (icon: faPortrait, content: PoliticalStatus_zh),
   (icon: faEnvelope, content: MailAddress, link: "mailto:" + MailAddress),
-  (icon: faGithub, content: GithubContent, link: GithubHomePage),
-  (icon: faBlog, content: PersonalBlogContent, link: PersonalBlogPage),
+  (icon: faBlog, content: HomePage, link: HomePageLink),
 )
 // 手动顶行, 2em 代表两个字的宽度
 #h(2em)  #Intro_zh

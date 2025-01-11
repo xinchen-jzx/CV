@@ -40,7 +40,7 @@
     photographWidth = 0em
     gutterWidth = 0em
   }
-
+ 
   // 页边距设定
   set page(paper: "a4", numbering: "1", margin: (
     top: top,
@@ -188,9 +188,9 @@
 
 #let display_duration(d1: datetime, d2: datetime, style: DateStyle, date_format: true) = {
   if date_format {
-    return date(d1.display(style) + "~" + d2.display(style))
+    return date(tech(d1.display(style) + "~" + d2.display(style)))
   } else {
-    return d1.display(style) + "~" + d2.display(style)
+    return tech(d1.display(style) + "~" + d2.display(style))
   }
 }
 
