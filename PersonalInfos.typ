@@ -9,11 +9,8 @@
 
 #let Grade = "GPA: 3.90/4 · Rank: 1/108 , CET4 6xx · CET6 5xx"
 
-#let CourseCS1 = "Sweep and Mop (90), Carry wood and water (98)"
-#let CourseCS2 = "Talk about the scriptures (91), PLearn to write and burn incense (89)"
 #let CourseCS_zh = "洒扫应对 (90)、进退周旋 (98)、讲经论道 (91)、习字焚香 (89)"
 
-#let CourseAI = "Immortality(98), Seventy-two changes (96), Somersault Cloud (91)"
 #let CourseAI_zh = "长生不老术 (98)、地煞七十二变 (96)、筋斗云 (91)"
 
 #let University = "Lingtai Fangcun Mountain"
@@ -70,12 +67,9 @@
 ]
 
 #let Skills = [
-  // Linux, CMake, PyTorch, LaTex, 
   #Linux,
-  #CMake,
   #PyTorch,
-  #LaTex,
-  #Typst,
-  #MPI
+  #CMake,
+  #CUDA
 ]
 

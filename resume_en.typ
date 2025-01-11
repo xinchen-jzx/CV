@@ -69,34 +69,22 @@
   #v(0.2em)
 ]
 
+// == #faAward Awards and Honors
+
+// #Awards
+
 == #faWrench Expertise
 
 #sidebar(withLine: false, sideWidth: 20%)[
   *Programming*
   
   *Skills*
-
-  *Basic*
-
-  ~
-  
-  *Advanced*
 ][
   #ProgrammingLanguages
 
   #Skills
-  
-  #CourseCS1
-  
-  #CourseCS2
-  
-  #CourseAI
 ]
 
-== #faAward Awards
+// == #faBuildingColumns Leadership and Extracurricular Activities 
 
-#Awards
-
-== #faBuildingColumns Leadership and Extracurricular Activities 
-
-#Extracurriculars
+// #Extracurriculars

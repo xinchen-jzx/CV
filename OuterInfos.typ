@@ -17,7 +17,6 @@
 // Misc
 #let LLVM = [#link("https://llvm.org/")[LLVM]]
 #let CUDA = [#link("https://developer.nvidia.com/cuda-zone")[CUDA]]
-#let RISCV = [#link("https://riscv.org/")[RISC-V]]
 #let OpenMP = [#link("https://www.openmp.org/")[OpenMP]]
 #let CUDAToolkit = [#link("https://developer.nvidia.com/cuda-toolkit")[CUDA Toolkit]]
 

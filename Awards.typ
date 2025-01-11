@@ -11,7 +11,8 @@
     Scholarship_duration
   )
   #item(
-    [ *The 1345th Heaven Modeling Contest* ], [ *Second Prize* ],
+    [ *The 1345th Heaven Modeling Contest* ],
+    [ *Second Prize* ],
     display_date(d: Heaven_Modeling_Contest_date, date_format: false)
   )
 ]
