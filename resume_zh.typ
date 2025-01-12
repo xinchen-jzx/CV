@@ -29,51 +29,39 @@
 )
 // 手动顶行, 2em 代表两个字的宽度
 #h(2em)  #Intro_zh
+
+#h(2em) #LifeCreed_zh
 ]
 == #faGraduationCap 教育背景
 
 #sidebar(withLine: true, sideWidth: 20%)[
-  #display_duration(d1: EnrollDay, d2: Today, date_format: false)
+  *_2021.09 \~ 现在_*
 
-  #display_date(d: EnrollDay, date_format: false)
-  
-  #display_date(d: datetime(year: 2022, month: 9, day: 1), date_format: false)
-
-  2023\~2024 
+  计算机科学与技术
 ][
-  #Grade
-  
-  #University_zh · #College_zh · #Major_zh
-  
-  #University_zh · #Lab1_zh
+  *国防科技大学*
 
-  #University_zh · #Lab2_zh
+  工学学士, 计算机学院
+
+  导师: 曾坤 - 副研究员
 ]
 
-== #faWrench 专业技能
+#sidebar(withLine: true, sideWidth: 20%)[
+  *_2024.06 \~ 现在_*
 
-#sidebar(withLine: false, sideWidth: 20%)[
-  *外门弟子技能*
-  
-  *内门弟子技能*
-
-  *修道基础*
-
-  *修道神通*
+  计算机科学与技术
 ][
-  #ProgrammingLanguages
+  *中国科学院大学*
 
-  #Skills
+  访问学生, 计算技术研究所
 
-  #CourseCS_zh
-  
-  #CourseAI_zh
+  导师: 崔慧敏 - 教授; 王晨曦 - 副教授
 ]
 
+== #faPaper Research & Publications
 
-== #faAward 获奖情况
-
-#Awards_zh
+- *[NeurIPS\'24 CCF-A]* Zhihua Wen, Zhiliang Tian, #underline[*Zexin Jian*], Zhen Huang, Pei Ke, Yifu Gao, Minlie Huang, Dongsheng Li. _Perception of Knowledge Boundaries for LLMs via Semi-open-ended Question Answering_.
+- *[ACL\'23 CCF-A]* Zhihua Wen, Zhiliang Tian, Zhen Huang, Yuxin Yang, #underline[*Zexin Jian*], Changjian Wang, Dongsheng Li. _GRACE: Gradient-guided Controllable Retrieval for Augmenting Attribute-based Text Generation_.
 
 == #faCode 项目经历
 
@@ -82,6 +70,27 @@
   #v(0.3em)
 ]
 
-== #faBuildingColumns 校园经历
+// == #faAward 获奖情况
 
-#Extracurriculars_zh
+// #Awards_zh
+
+// services
+// == #faBuildingColumns Leadership and Extracurricular Activities 
+
+// #Extracurriculars
+
+== #faWrench 专业技能
+
+#sidebar(withLine: false, sideWidth: 20%)[
+  *编程语言*
+  
+  *知识技能*
+][
+  #ProgrammingLanguages
+
+  #Skills
+]
+
+// == #faBuildingColumns 校园经历
+
+// #Extracurriculars_zh

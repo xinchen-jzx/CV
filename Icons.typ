@@ -15,3 +15,4 @@
 #let faBlog = icon("icons/fa-blog.svg")
 #let faPortrait = icon("icons/fa-portrait.svg")
 #let faPaper = icon("icons/fa-paper.svg")
+#let faTeach = icon("icons/fa-teaching.svg")

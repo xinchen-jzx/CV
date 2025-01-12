@@ -62,6 +62,7 @@
 - *[NeurIPS\'24 CCF-A]* Zhihua Wen, Zhiliang Tian, #underline[*Zexin Jian*], Zhen Huang, Pei Ke, Yifu Gao, Minlie Huang, Dongsheng Li. _Perception of Knowledge Boundaries for LLMs via Semi-open-ended Question Answering_.
 - *[ACL\'23 CCF-A]* Zhihua Wen, Zhiliang Tian, Zhen Huang, Yuxin Yang, #underline[*Zexin Jian*], Changjian Wang, Dongsheng Li. _GRACE: Gradient-guided Controllable Retrieval for Augmenting Attribute-based Text Generation_.
 
+// 项目经历
 == #faCode Projects
 
 #for project in Projects [
@@ -69,10 +70,22 @@
   #v(0.2em)
 ]
 
+// 奖项荣誉
 // == #faAward Awards and Honors
 
 // #Awards
 
+// 助教情况
+// == #faTeach Teaching Experience
+
+// - National University of Defense Technology
+
+// services
+// == #faBuildingColumns Leadership and Extracurricular Activities 
+
+// #Extracurriculars
+
+// 技能
 == #faWrench Expertise
 
 #sidebar(withLine: false, sideWidth: 20%)[
@@ -84,7 +97,3 @@
 
   #Skills
 ]
-
-// == #faBuildingColumns Leadership and Extracurricular Activities 
-
-// #Extracurriculars
