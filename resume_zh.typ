@@ -70,9 +70,9 @@
   #v(0.3em)
 ]
 
-// == #faAward 获奖情况
+== #faAward 获奖情况
 
-// #Awards_zh
+#Awards_zh
 
 // services
 // == #faBuildingColumns Leadership and Extracurricular Activities 
@@ -85,10 +85,14 @@
   *编程语言*
   
   *知识技能*
+
+  *专业课程*
 ][
   #ProgrammingLanguages
 
   #Skills
+
+  #Course
 ]
 
 // == #faBuildingColumns 校园经历
