@@ -18,9 +18,3 @@ Extract Personal Infomation to another file, keep main typst resume file clean.
 - `Awards.typ`: Info about awards.
 - `Extracurriculars.typ`: Info about extracurriculars.
 - `Projects.typ`: Info about projects.
-
-Examples:
-
-![resume_en](./assets/resume_en.jpg)
-
-![resume_zh](./assets/resume_zh.jpg)

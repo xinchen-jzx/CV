@@ -50,7 +50,24 @@
 #let RustOS24_project = create-project(RustOS24_name, RustOS24_type, RustOS24_url, RustOS24_techs, RustOS24_discription, RustOS24start, RustOS24end)
 #let RustOS24_project_zh = create-project(RustOS24_name, RustOS24_type_zh, RustOS24_url, RustOS24_techs, RustOS24_discription_zh, RustOS24start, RustOS24end)
 
+// 2025年AI编译器
+#let CIM25_name = "CIM Compiler"
+#let CIM25_type = "AIIT、Peking"
+#let CIM25_type_zh = "编译器"
+#let CIM25_url = ""
+#let CIM25_techs = tech[#CPP, #IREE, RISCV, CIM, Compiler Design]
+#let CIM25start = datetime(year: 2025, month: 1, day: 1)
+#let CIM25end = datetime(year: 2028, month: 1, day: 1)
+#let CIM25_discription = [
+- Adapting a compiler for RISC-V Computing-in-Memory chip based on IREE.
+]
+#let CIM25_discription_zh = [
+- 基于IREE为RISC-V存算一体芯片适配一款编译器
+]
+
+#let CIM25_project = create-project(CIM25_name, CIM25_type, CIM25_url, CIM25_techs, CIM25_discription, CIM25start, CIM25end)
+#let CIM25_project_zh = create-project(CIM25_name, CIM25_type_zh, CIM25_url, CIM25_techs, CIM25_discription_zh, CIM25start, CIM25end)
 
 // 汇总
-#let Projects = (SysY24_project, RustOS24_project)
-#let Projects_zh = (SysY24_project_zh, RustOS24_project_zh)
+#let Projects = (RustOS24_project, SysY24_project)
+#let Projects_zh = (RustOS24_project_zh, SysY24_project_zh, RustOS24_project_zh)

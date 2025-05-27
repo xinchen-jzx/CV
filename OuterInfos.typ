@@ -15,10 +15,13 @@
 #let Debian = [#link("https://www.debian.org/")[Debian]]
 
 // Misc
-#let LLVM = [#link("https://llvm.org/")[LLVM]]
 #let CUDA = [#link("https://developer.nvidia.com/cuda-zone")[CUDA]]
 #let OpenMP = [#link("https://www.openmp.org/")[OpenMP]]
 #let CUDAToolkit = [#link("https://developer.nvidia.com/cuda-toolkit")[CUDA Toolkit]]
+
+// Compiler
+#let LLVM = [#link("https://github.com/llvm/llvm-project")[LLVM]]
+#let IREE = [#link("https://github.com/iree-org/iree")[IREE]]
 
 #let Xavier = [#link("https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-agx-xavier/")[Nvidia AGX Xavier]]
 #let MNIST = [#link("https://yann.lecun.com/exdb/mnist/")[MNIST]]

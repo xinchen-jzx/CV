@@ -70,7 +70,7 @@
   #v(0.2em)
 ]
 
-// 奖项荣誉
+// // 奖项荣誉
 // == #faAward Awards and Honors
 
 // #Awards

@@ -10,7 +10,7 @@
 
 #let Awards = [
   #item(
-    [ *Heaven Scholarship* ], [ *First* ],
+    [ *National Encouragement Scholarship* ], [ *2023/2024* ],
     Scholarship_duration
   )
   #item(
