@@ -15,7 +15,7 @@
   size: 10pt, 
   themeColor: themeColor, 
   top: 1.5cm, bottom: 2cm, left: 2cm, right: 2cm,
-  photograph: Photograph, photographWidth: 9em, gutterWidth: 1em, 
+  photograph: Photograph, photographWidth: 10em, gutterWidth: 2em, 
   need_photograph: NeedPhotograph
 )[
 
@@ -35,7 +35,7 @@
 == #faGraduationCap 教育背景
 
 #sidebar(withLine: true, sideWidth: 20%)[
-  *_2021.09 \~ 现在_*
+  *_2021.09 \~ 2025.06_*
 
   计算机科学与技术
 ][
@@ -47,13 +47,13 @@
 ]
 
 #sidebar(withLine: true, sideWidth: 20%)[
-  *_2024.06 \~ 现在_*
+  *_2025.09 \~ present_*
 
   计算机科学与技术
 ][
   *中国科学院大学*
 
-  访问学生, 计算技术研究所
+  博士研究生, 计算技术研究所
 
   导师: 崔慧敏 - 教授; 王晨曦 - 副教授
 ]

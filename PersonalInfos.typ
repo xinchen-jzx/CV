@@ -5,7 +5,7 @@
 #let Name = "Zexin Jian"
 #let Name_zh = "简泽鑫"
 
-#let Photograph = "./images/avatar.jpg"
+#let Photograph = "./assets/avatar.jpg"
 
 #let PhoneNumber = "(+86) 155-7423-3383"
 
@@ -59,6 +59,5 @@
 #let Course = [
   计算机系统,
   操作系统,
-  并行编译优化,
-  操作系统
+  并行编译优化
 ]

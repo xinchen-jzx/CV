@@ -21,6 +21,7 @@
 
 // Compiler
 #let LLVM = [#link("https://github.com/llvm/llvm-project")[LLVM]]
+#let MLIR = [#link("https://mlir.llvm.org/")[MLIR]]
 #let IREE = [#link("https://github.com/iree-org/iree")[IREE]]
 
 #let Xavier = [#link("https://www.nvidia.com/en-in/autonomous-machines/embedded-systems/jetson-agx-xavier/")[Nvidia AGX Xavier]]
