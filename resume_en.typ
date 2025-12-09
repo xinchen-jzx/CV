@@ -1,7 +1,6 @@
 #import "template.typ": *
 #import "PersonalInfos.typ": *
 #import "Projects.typ": *
-#import "Extracurriculars.typ": *
 #import "Awards.typ": *
 #import "Icons.typ": *
 
@@ -46,13 +45,13 @@
 ]
 
 #sidebar(withLine: true, sideWidth: 20%)[
-  *_Jun.2024 \~ present_*
+  *_Sep.2025 \~ present_*
 
   *Beijing, China*
 ][
   *Chinese Academy of Sciences (CAS)*
   
-  _Visiting Student, Institute of Computing Technology (ICT) _
+  _ph.D. Student, Institute of Computing Technology (ICT) _
   
   co-Advised by Dr. Huimin Cui and Dr. Chenxi Wang
 ]
@@ -74,16 +73,6 @@
 // == #faAward Awards and Honors
 
 // #Awards
-
-// 助教情况
-// == #faTeach Teaching Experience
-
-// - National University of Defense Technology
-
-// services
-// == #faBuildingColumns Leadership and Extracurricular Activities 
-
-// #Extracurriculars
 
 // 技能
 == #faWrench Expertise

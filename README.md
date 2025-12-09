@@ -16,5 +16,4 @@ Extract Personal Infomation to another file, keep main typst resume file clean.
   - can be include and use in other resume files.
 - `PersonalInfos.typ`: Info about personal, including name, contact, education, experience, skills, etc.
 - `Awards.typ`: Info about awards.
-- `Extracurriculars.typ`: Info about extracurriculars.
 - `Projects.typ`: Info about projects.

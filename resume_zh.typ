@@ -3,7 +3,6 @@
 
 #import "PersonalInfos.typ": *
 #import "Projects.typ": *
-#import "Extracurriculars.typ": *
 #import "Awards.typ": *
 
 // 主题颜色
@@ -74,11 +73,6 @@
 
 #Awards_zh
 
-// services
-// == #faBuildingColumns Leadership and Extracurricular Activities 
-
-// #Extracurriculars
-
 == #faWrench 专业技能
 
 #sidebar(withLine: false, sideWidth: 20%)[
@@ -94,7 +88,3 @@
 
   #Course
 ]
-
-// == #faBuildingColumns 校园经历
-
-// #Extracurriculars_zh

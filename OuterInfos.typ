@@ -1,7 +1,7 @@
 // Programming Language
-#let Rust = [#link("https://www.rust-lang.org/")[Rust]]
-#let CPP = [#link("https://isocpp.org/")[C++]]
+#let CPP = [#link("https://isocpp.org/")[C/C++]]
 #let Python = [#link("https://www.python.org/")[Python]]
+#let Rust = [#link("https://www.rust-lang.org/")[Rust]]
 
 // Skills
 #let Linux = [#link("https://github.com/torvalds/linux")[Linux]]
