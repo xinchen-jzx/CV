@@ -73,7 +73,7 @@
 // 2025 年 LLM as Compiler
 #let LLMASCompiler25_name = "LLM as Compiler"
 #let LLMASCompiler25_type = "ICT, CAS"
-#let LLMASCompiler25_type_zh = "计算技术研究所"
+#let LLMASCompiler25_type_zh = "中科院计算技术研究所"
 #let LLMASCompiler25_url = "https://arxiv.org/pdf/2506.02929"
 #let LLMASCompiler25_techs = tech[LLM, Compiler Design, Machine Learning System]
 #let LLMASCompiler25start = datetime(year: 2024, month: 9, day: 1)
