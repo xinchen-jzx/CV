@@ -64,7 +64,7 @@
 - Starting from the macro kernel, absorbing and learning from the design patterns of the micro kernel to improve security while ensuring certain performance.
 ]
 #let RustOS24_discription_zh = [
-- 使用Rust开发，从零实现了一个X86架构的实验性操作系统内核
+- 使用 Rust 开发，从零实现了一个X86架构的实验性操作系统内核
 - 本项目的出发点是探索不同的内核架构对内核安全性与性能的影响并尝试权衡二者。从宏内核出发，吸收借鉴微内核的设计模式来提高安全性的同时保证一定的性能
 ]
 #let RustOS24_project = create-project(RustOS24_name, RustOS24_type, RustOS24_url, RustOS24_techs, RustOS24_discription, RustOS24start, RustOS24end)
