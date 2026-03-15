@@ -1,11 +1,6 @@
-# Resume Template in en/zh
+# CV
 
-> :star: If it is useful for you, please give me a free star, thanks! :star:
-
-- Modified from [OrangeX4/Chinese-Resume-in-Typst](https://github.com/OrangeX4/Chinese-Resume-in-Typst).
-- If it is infringing, please contact me to remove it, thank you!
-
-Extract Personal Infomation to another file, keep main typst resume file clean.
+## File Structure
 
 - `resume_en.typ`
 - `resume_zh.typ`

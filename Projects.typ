@@ -46,7 +46,7 @@
 ]
 #let SysY24_discription_zh = [
 - 使用 C/C++ 开发，为 SysY2022（C 语言子集）实现了一个功能齐全的编译器系统
-- 主要工作包括前端的词法分析和语义分析，以及面向 RISC-V 架构的底层代码生成和优化（包括代码生成和寄存器分配）
+- 主要工作包括前端的词法分析和语义分析，以及面向 RISC-V 架构的底层代码生成和优化
 ]
 #let SysY24_project = create-project(SysY24_name, SysY24_type, SysY24_url, SysY24_techs, SysY24_discription, SysY24start, SysY24end)
 #let SysY24_project_zh = create-project(SysY24_name, SysY24_type_zh, SysY24_url, SysY24_techs, SysY24_discription_zh, SysY24start, SysY24end)
@@ -135,9 +135,7 @@
                  SysY24_project, 
                  GROVE23_project)
 
-#let Projects_zh = (CloudMatrix25_project_zh, 
-                    CIM25_project_zh, 
-                    LLMASCompiler25_project_zh, 
+#let Projects_zh = (LLMASCompiler25_project_zh, 
                     RustOS24_project_zh, 
                     SysY24_project_zh, 
                     GROVE23_project_zh)

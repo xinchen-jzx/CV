@@ -73,18 +73,18 @@
 
 #Awards_zh
 
-== #faWrench 专业技能
+// == #faWrench 专业技能
 
-#sidebar(withLine: false, sideWidth: 20%)[
-  *编程语言*
+// #sidebar(withLine: false, sideWidth: 20%)[
+//   *编程语言*
   
-  *知识技能*
+//   *知识技能*
 
-  *专业课程*
-][
-  #ProgrammingLanguages
+//   *专业课程*
+// ][
+//   #ProgrammingLanguages
 
-  #Skills
+//   #Skills
 
-  #Course
-]
+//   #Course
+// ]
