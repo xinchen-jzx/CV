@@ -9,7 +9,7 @@
 
 #let PhoneNumber = "(+86) 155-7423-3383"
 
-#let MailAddress = "zexinjian@gmail.com"
+#let MailAddress = "jianzexin25z@ict.ac.cn"
 
 #let HomePage = "xinchen-jzx.github.io"
 #let HomePageLink = "https://xinchen-jzx.github.io/"

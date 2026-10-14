@@ -3,6 +3,7 @@
 
 #import "PersonalInfos.typ": *
 #import "Projects.typ": *
+#import "Internships.typ": *
 #import "Awards.typ": *
 
 // 主题颜色
@@ -57,8 +58,17 @@
   导师: 崔慧敏 - 教授; 王晨曦 - 副教授
 ]
 
+== #faBuildingColumns 实习经历
+
+#for internship in Internships_zh [
+  #internship
+  #v(0.3em)
+]
+
 == #faPaper Research & Publications
 
+- *[Arxiv\'26]* Jin Qin, Tiancheng Hu, Shiyan Wang, Junhao Hu, #underline[*Zexin Jian*], Yuzheng Wang, Haoyu Li, Chunwei Xia, Ying Liu, Pixian Zhan, Di Wang, Zhongzhe Hu, Huimin Cui, Tao Xie, Chenxi Wang. _CascadeEP: Asynchronous Expert Execution for MoE Prefill under Attention Imbalance_.
+- *[ICS\'26 workshop]* #underline[*Zexin Jian*], Shuhui Jia, Chunwei Xia, Di Wang, Chenxi Wang. _RV-IR: An MLIR-Based Architecture-Aware Intermediate Representation for Heterogeneous RISC-V AI Acceleration_.
 - *[NeurIPS\'24 CCF-A]* Zhihua Wen, Zhiliang Tian, #underline[*Zexin Jian*], Zhen Huang, Pei Ke, Yifu Gao, Minlie Huang, Dongsheng Li. _Perception of Knowledge Boundaries for LLMs via Semi-open-ended Question Answering_.
 - *[ACL\'23 CCF-A]* Zhihua Wen, Zhiliang Tian, Zhen Huang, Yuxin Yang, #underline[*Zexin Jian*], Changjian Wang, Dongsheng Li. _GRACE: Gradient-guided Controllable Retrieval for Augmenting Attribute-based Text Generation_.
 
