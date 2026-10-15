@@ -21,7 +21,7 @@
 #let Huawei25_role_zh = "研发实习生"
 #let Huawei25_techs = tech[CloudMatrix384, Ascend, MemFabric, MoE EP, HCCL]
 #let Huawei25start = datetime(year: 2025, month: 12, day: 1)
-#let Huawei25end = datetime(year: 2026, month: 12, day: 1)
+#let Huawei25end = datetime(year: 2026, month: 09, day: 1)
 #let Huawei25_description = [
 - Co-led the *MemFabric* project: pooled heterogeneous DRAM/HBM on Ascend SuperPods with global-virtual-address direct access
 - Co-led *CATCCOS* (Compute-Communication Overlap Subroutines) to pipeline compute with collectives and hide communication latency
