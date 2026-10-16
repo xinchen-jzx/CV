@@ -64,8 +64,11 @@
 // 项目经历
 == #faCode Projects
 
+#Sidecar_project
+#v(0.2em)
+
 #for project in Projects [
-  #project
+  #block(breakable: false)[#project]
   #v(0.2em)
 ]
 

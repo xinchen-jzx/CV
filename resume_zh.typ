@@ -29,8 +29,6 @@
 )
 // 手动顶行, 2em 代表两个字的宽度
 #h(2em)  #Intro_zh
-
-#h(2em) #LifeCreed_zh
 ]
 == #faGraduationCap 教育背景
 
@@ -75,7 +73,7 @@
 == #faCode 项目经历
 
 #for project in Projects_zh [
-  #project
+  #block(breakable: false)[#project]
   #v(0.3em)
 ]
 

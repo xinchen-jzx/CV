@@ -128,6 +128,34 @@
 #let CloudMatrix25_project_zh = create-project(CloudMatrix25_name, CloudMatrix25_type_zh, CloudMatrix25_url, CloudMatrix25_techs, CloudMatrix25_discription_zh, CloudMatrix25start, CloudMatrix25end)
 
 
+#let Sidecar_project = block(breakable: false)[
+  #item(columns: (1fr, auto, auto),
+    [*Sidecar: Megakernel Compiler and Runtime for Ascend NPUs*],
+    [*Co-lead*],
+    [])
+  #tech[Noah's Ark Lab, Huawei | Ascend C/C++, Python, CANN]
+  Co-led development of a persistent megakernel system for LLM decoding, addressing repeated kernel launches, operator-wide synchronization, and scheduling overhead across heterogeneous Cube/Vector units.
+
+  - *Task-graph compilation:* The compiler derives tile dependencies from tensor access regions to enable cross-operator pipelining. Transitive-edge pruning and virtual synchronization nodes reduce dependency edges by *86.29%* on Qwen3-30B-A3B (batch size 1), while preserving execution dependencies.
+  - *Heterogeneous scheduling:* The AICPU control plane combines per-worker HBM task queues with register-based notifications, supporting Cube, Vector, and coordinated Mix tasks. Parallel schedulers, batched dispatch, and runtime MoE expert filtering reduce control overhead and balance ready work across compatible workers.
+  - *Scheduling-computation overlap:* Early handoff separates scheduling readiness from data readiness, preparing successors during producer execution while worker-side counters protect dependent accesses. This mechanism reduces time per output token (TPOT) by *5.98-11.77%* in GLM-5.2 W4A8 ablations (TP=8).
+  - *End-to-end results:* Evaluated across Ascend *A2/A3/A5* on dense and MoE models, the system achieves lower TPOT in *all 42 configurations* than both optimized vLLM-Ascend and SGLang-Ascend. Peak TPOT reduction is *40.72%* versus the faster baseline (*34.23 ms to 20.29 ms*, GLM-5.2 W4A8, A5, TP=8, batch size 1).
+]
+
+#let Sidecar_project_zh = block(breakable: false)[
+  #item(columns: (1fr, auto, auto),
+    [*Sidecar：面向昇腾 NPU 的 Megakernel 编译与运行时系统*],
+    [*联合主导*],
+    [])
+  #tech[华为诺亚方舟实验室 | Ascend C/C++, Python, CANN]
+  *定位：* 面向大模型自回归解码中的频繁 kernel 启动、算子级同步及 Cube/Vector 异构调度开销，联合主导研发持久化 Megakernel 系统，实现 Tile 级跨算子流水与设备端动态调度。
+
+  - *任务图编译优化：* 基于张量读写区域推导 Tile 级依赖，支持消费者在所需数据就绪后提前执行；通过传递边剪枝与虚拟同步节点压缩依赖图，在保持执行依赖语义的前提下，将 Qwen3-30B-A3B（BS=1）的依赖边数减少 *86.29%*。
+  - *异构资源动态调度：* AICPU 控制面结合各 Worker 的 HBM 任务队列与寄存器通知，支持 Cube、Vector 及 Mix 协同任务；通过多核并行调度、批量派发及运行时 MoE 非活跃专家过滤，降低控制开销并均衡兼容计算单元间的任务负载。
+  - *调度与计算重叠：* 通过 Early Handoff 分离调度就绪与数据就绪，在生产者计算期间提前准备后继任务，并以 Worker 端计数器保证数据依赖正确性；在 GLM-5.2 W4A8（TP=8）的消融实验中，单 token 输出时延（TPOT）降低 *5.98%-11.77%*。
+  - *端到端性能验证：* 覆盖昇腾 *A2/A3/A5* 三代架构及 Dense/MoE 模型，在 *42 组配置*中 TPOT 均优于开启优化的 vLLM-Ascend 和 SGLang-Ascend；相对两者中的更快基线，TPOT 最高降低 *40.72%*（GLM-5.2 W4A8，A5，TP=8，BS=1，*34.23 ms 降至 20.29 ms*）。
+]
+
 #let Projects = (CloudMatrix25_project, 
                  CIM25_project, 
                  LLMASCompiler25_project, 
